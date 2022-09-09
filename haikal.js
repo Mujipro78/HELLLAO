@@ -1478,10 +1478,10 @@ anjay(res)
 });
 break
 //=================================================//
-case 'kal': {
+case 'muji': {
 if (isBan) throw sticBanLu(from)
 if (!isRegistered) return replyReg(mess.verif)
- hey = fs.readFileSync('./baseikal/sound/tes.mp3')
+ hey = fs.readFileSync('./baseikal/sound/Jiixxy.mp3')
  haikal.sendMessage(m.chat, {audio: hey, mimetype: 'audio/mpeg', ptt:true }, {quoted:hw})
  }
  break
